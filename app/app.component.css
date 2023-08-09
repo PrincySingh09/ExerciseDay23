@@ -1,0 +1,22 @@
+.container {
+display: flex;
+}
+.nav {
+    flex: 1;
+    padding: 10px;
+    border-right: 1px solid olive;
+}
+.content {
+    flex: 3;
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
+.nav a {
+    display: block;
+    margin: 5px 0;
+    color: blue;
+    text-decoration: none;
+}
+.nav a:hover {
+color: darkblue;
+}
